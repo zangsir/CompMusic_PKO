@@ -1,0 +1,1720 @@
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        21
+     manban       0.33      0.06      0.11        16
+     yaoban       0.34      0.86      0.48        44
+    yuanban       0.20      0.02      0.04        44
+
+avg / total       0.23      0.32      0.20       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.20      0.32      0.24        19
+     manban       0.39      0.37      0.38        19
+     yaoban       0.51      0.43      0.47        47
+    yuanban       0.42      0.40      0.41        40
+
+avg / total       0.42      0.39      0.40       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.62      0.21      0.31        24
+     manban       0.29      0.12      0.17        16
+     yaoban       0.50      0.84      0.63        44
+    yuanban       0.58      0.51      0.55        41
+
+avg / total       0.52      0.52      0.48       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.25      0.05      0.08        20
+     manban       0.46      0.35      0.40        17
+     yaoban       0.47      0.84      0.61        45
+    yuanban       0.57      0.37      0.45        43
+
+avg / total       0.47      0.49      0.44       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.59      0.42      0.49        24
+     manban       1.00      0.28      0.44        25
+     yaoban       0.67      0.76      0.71        49
+    yuanban       0.39      0.67      0.49        27
+
+avg / total       0.66      0.58      0.57       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        24
+     manban       0.00      0.00      0.00        22
+     yaoban       0.30      1.00      0.46        37
+    yuanban       1.00      0.02      0.05        42
+
+avg / total       0.42      0.30      0.15       125
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        27
+     manban       0.00      0.00      0.00        20
+     yaoban       0.38      0.92      0.54        48
+    yuanban       0.25      0.07      0.11        30
+
+avg / total       0.21      0.37      0.23       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.30      0.30      0.30        20
+     manban       0.33      0.24      0.28        21
+     yaoban       0.50      0.52      0.51        42
+    yuanban       0.46      0.50      0.48        42
+
+avg / total       0.43      0.43      0.43       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.67      0.10      0.17        20
+     manban       0.67      0.17      0.27        12
+     yaoban       0.56      0.87      0.68        52
+    yuanban       0.59      0.56      0.57        41
+
+avg / total       0.60      0.58      0.53       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.80      0.12      0.22        32
+     manban       0.40      0.20      0.27        20
+     yaoban       0.43      0.88      0.57        40
+    yuanban       0.29      0.24      0.26        33
+
+avg / total       0.48      0.41      0.35       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.29      0.19      0.23        21
+     manban       0.67      0.50      0.57        20
+     yaoban       0.58      0.81      0.67        47
+    yuanban       0.57      0.46      0.51        37
+
+avg / total       0.54      0.55      0.53       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        21
+     manban       0.00      0.00      0.00        19
+     yaoban       0.34      0.98      0.50        42
+    yuanban       0.67      0.05      0.09        43
+
+avg / total       0.34      0.34      0.20       125
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        27
+     manban       0.50      0.17      0.25        12
+     yaoban       0.31      0.95      0.47        38
+    yuanban       0.50      0.06      0.11        48
+
+avg / total       0.34      0.33      0.21       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.46      0.50      0.48        22
+     manban       0.24      0.24      0.24        17
+     yaoban       0.64      0.57      0.60        53
+    yuanban       0.38      0.42      0.40        33
+
+avg / total       0.48      0.47      0.48       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.57      0.22      0.32        18
+     manban       0.33      0.05      0.09        19
+     yaoban       0.47      0.80      0.59        45
+    yuanban       0.47      0.42      0.44        43
+
+avg / total       0.46      0.47      0.43       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.57      0.14      0.23        28
+     manban       0.62      0.31      0.42        16
+     yaoban       0.53      0.85      0.65        53
+    yuanban       0.36      0.32      0.34        28
+
+avg / total       0.51      0.50      0.46       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.33      0.12      0.18        32
+     manban       0.25      0.17      0.20        12
+     yaoban       0.59      0.72      0.65        46
+    yuanban       0.41      0.57      0.48        35
+
+avg / total       0.44      0.47      0.44       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        19
+     manban       0.00      0.00      0.00        24
+     yaoban       0.39      1.00      0.56        47
+    yuanban       0.60      0.09      0.15        35
+
+avg / total       0.32      0.40      0.25       125
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        32
+     manban       0.00      0.00      0.00        25
+     yaoban       0.33      0.78      0.47        45
+    yuanban       0.18      0.13      0.15        23
+
+avg / total       0.15      0.30      0.20       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.54      0.59      0.57        22
+     manban       0.38      0.40      0.39        15
+     yaoban       0.65      0.60      0.62        52
+    yuanban       0.51      0.53      0.52        36
+
+avg / total       0.56      0.55      0.55       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.80      0.38      0.52        21
+     manban       0.57      0.16      0.25        25
+     yaoban       0.51      0.87      0.64        45
+    yuanban       0.45      0.41      0.43        34
+
+avg / total       0.55      0.52      0.48       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.40      0.24      0.30        17
+     manban       0.57      0.22      0.32        18
+     yaoban       0.51      0.72      0.60        54
+    yuanban       0.32      0.28      0.30        36
+
+avg / total       0.45      0.46      0.43       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.35      0.27      0.31        22
+     manban       0.62      0.42      0.50        19
+     yaoban       0.57      0.77      0.65        44
+    yuanban       0.54      0.47      0.51        40
+
+avg / total       0.53      0.54      0.52       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        27
+     manban       0.00      0.00      0.00        17
+     yaoban       0.32      1.00      0.49        40
+    yuanban       0.00      0.00      0.00        41
+
+avg / total       0.10      0.32      0.16       125
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        26
+     manban       0.00      0.00      0.00        18
+     yaoban       0.35      0.89      0.50        44
+    yuanban       0.42      0.14      0.20        37
+
+avg / total       0.25      0.35      0.24       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.67      0.43      0.53        23
+     manban       0.44      0.29      0.35        28
+     yaoban       0.62      0.71      0.67        42
+    yuanban       0.34      0.47      0.39        32
+
+avg / total       0.52      0.50      0.50       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.42      0.28      0.33        18
+     manban       1.00      0.12      0.21        17
+     yaoban       0.49      0.70      0.58        47
+    yuanban       0.45      0.47      0.46        43
+
+avg / total       0.54      0.48      0.45       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.25      0.16      0.19        19
+     manban       0.50      0.22      0.30        23
+     yaoban       0.51      0.80      0.62        46
+    yuanban       0.37      0.30      0.33        37
+
+avg / total       0.43      0.45      0.41       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.45      0.26      0.33        19
+     manban       0.33      0.11      0.17        18
+     yaoban       0.56      0.76      0.65        46
+    yuanban       0.52      0.57      0.55        42
+
+avg / total       0.50      0.53      0.50       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        19
+     manban       0.00      0.00      0.00        14
+     yaoban       0.46      0.98      0.62        56
+    yuanban       0.60      0.08      0.15        36
+
+avg / total       0.38      0.46      0.32       125
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.50      0.07      0.12        29
+     manban       0.00      0.00      0.00        17
+     yaoban       0.35      0.82      0.49        45
+    yuanban       0.36      0.15      0.21        34
+
+avg / total       0.34      0.35      0.26       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.29      0.38      0.32        16
+     manban       0.72      0.59      0.65        22
+     yaoban       0.57      0.65      0.61        48
+    yuanban       0.56      0.46      0.51        39
+
+avg / total       0.56      0.54      0.55       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.50      0.12      0.20        24
+     manban       0.67      0.08      0.15        24
+     yaoban       0.44      0.90      0.59        39
+    yuanban       0.50      0.47      0.49        38
+
+avg / total       0.51      0.46      0.40       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.22      0.08      0.11        26
+     manban       0.88      0.32      0.47        22
+     yaoban       0.49      0.87      0.63        47
+    yuanban       0.40      0.33      0.36        30
+
+avg / total       0.48      0.48      0.43       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.54      0.26      0.35        27
+     manban       0.57      0.18      0.28        22
+     yaoban       0.60      0.83      0.69        41
+    yuanban       0.50      0.69      0.58        35
+
+avg / total       0.55      0.55      0.51       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        18
+     manban       0.00      0.00      0.00        27
+     yaoban       0.43      1.00      0.60        51
+    yuanban       0.67      0.14      0.23        29
+
+avg / total       0.33      0.44      0.30       125
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        32
+     manban       0.00      0.00      0.00        20
+     yaoban       0.33      0.95      0.49        42
+    yuanban       0.50      0.03      0.06        31
+
+avg / total       0.24      0.33      0.18       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.38      0.38      0.38        24
+     manban       0.55      0.63      0.59        19
+     yaoban       0.59      0.64      0.62        45
+    yuanban       0.50      0.41      0.45        37
+
+avg / total       0.52      0.52      0.52       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.38      0.12      0.18        25
+     manban       0.33      0.06      0.10        18
+     yaoban       0.44      0.76      0.56        46
+    yuanban       0.46      0.44      0.45        36
+
+avg / total       0.42      0.44      0.39       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.54      0.24      0.33        29
+     manban       0.38      0.16      0.22        19
+     yaoban       0.43      0.80      0.56        41
+    yuanban       0.43      0.33      0.38        36
+
+avg / total       0.45      0.44      0.40       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.62      0.42      0.50        24
+     manban       0.69      0.43      0.53        21
+     yaoban       0.79      0.70      0.75        54
+    yuanban       0.35      0.65      0.46        26
+
+avg / total       0.65      0.59      0.60       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        21
+     manban       0.00      0.00      0.00        24
+     yaoban       0.33      1.00      0.50        41
+    yuanban       0.00      0.00      0.00        39
+
+avg / total       0.11      0.33      0.16       125
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        22
+     manban       0.00      0.00      0.00        19
+     yaoban       0.33      0.84      0.47        43
+    yuanban       0.50      0.12      0.20        41
+
+avg / total       0.28      0.33      0.23       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.52      0.40      0.45        30
+     manban       0.24      0.29      0.26        14
+     yaoban       0.57      0.69      0.62        42
+    yuanban       0.50      0.44      0.47        39
+
+avg / total       0.50      0.50      0.49       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.88      0.28      0.42        25
+     manban       0.40      0.09      0.14        23
+     yaoban       0.51      0.83      0.63        47
+    yuanban       0.36      0.43      0.39        30
+
+avg / total       0.53      0.49      0.44       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.12      0.06      0.08        16
+     manban       0.50      0.14      0.22        29
+     yaoban       0.46      0.76      0.57        45
+    yuanban       0.31      0.31      0.31        35
+
+avg / total       0.39      0.40      0.35       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.56      0.31      0.40        29
+     manban       0.44      0.24      0.31        17
+     yaoban       0.64      0.76      0.70        42
+    yuanban       0.42      0.57      0.48        37
+
+avg / total       0.53      0.53      0.51       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        25
+     manban       0.00      0.00      0.00        16
+     yaoban       0.32      1.00      0.48        40
+    yuanban       0.00      0.00      0.00        44
+
+avg / total       0.10      0.32      0.16       125
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        24
+     manban       1.00      0.05      0.10        20
+     yaoban       0.31      0.88      0.46        41
+    yuanban       0.14      0.03      0.04        40
+
+avg / total       0.31      0.30      0.18       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.17      0.15      0.16        27
+     manban       0.35      0.27      0.31        22
+     yaoban       0.43      0.51      0.47        37
+    yuanban       0.41      0.44      0.43        39
+
+avg / total       0.36      0.37      0.36       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.33      0.11      0.17        18
+     manban       1.00      0.04      0.08        25
+     yaoban       0.38      0.92      0.54        38
+    yuanban       0.48      0.30      0.37        44
+
+avg / total       0.53      0.41      0.33       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.30      0.29      0.29        21
+     manban       0.40      0.10      0.16        20
+     yaoban       0.40      0.69      0.51        42
+    yuanban       0.43      0.29      0.34        42
+
+avg / total       0.39      0.39      0.36       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.50      0.35      0.41        26
+     manban       0.71      0.21      0.32        24
+     yaoban       0.63      0.79      0.70        43
+    yuanban       0.35      0.50      0.41        32
+
+avg / total       0.55      0.51      0.49       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        22
+     manban       0.00      0.00      0.00        20
+     yaoban       0.34      0.98      0.51        43
+    yuanban       0.00      0.00      0.00        40
+
+avg / total       0.12      0.34      0.17       125
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        27
+     manban       0.50      0.06      0.11        17
+     yaoban       0.32      0.88      0.47        40
+    yuanban       0.67      0.15      0.24        41
+
+avg / total       0.39      0.34      0.24       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.29      0.32      0.30        22
+     manban       0.41      0.60      0.49        15
+     yaoban       0.47      0.49      0.48        45
+    yuanban       0.34      0.26      0.29        43
+
+avg / total       0.39      0.39      0.39       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.45      0.20      0.28        25
+     manban       0.75      0.30      0.43        20
+     yaoban       0.53      0.91      0.67        46
+    yuanban       0.58      0.44      0.50        34
+
+avg / total       0.56      0.54      0.51       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.08      0.05      0.06        19
+     manban       0.30      0.17      0.21        18
+     yaoban       0.54      0.68      0.60        53
+    yuanban       0.36      0.37      0.37        35
+
+avg / total       0.38      0.42      0.40       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.45      0.22      0.29        23
+     manban       0.62      0.25      0.36        20
+     yaoban       0.57      0.73      0.64        44
+    yuanban       0.50      0.66      0.57        38
+
+avg / total       0.54      0.54      0.51       125
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1247
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1247, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+    kuaiban       0.00      0.00      0.00        26
+     manban       0.00      0.00      0.00        16
+     yaoban       0.34      1.00      0.50        41
+    yuanban       0.00      0.00      0.00        42
+
+avg / total       0.11      0.33      0.17       125
+

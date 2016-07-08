@@ -1,0 +1,2470 @@
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         9
+     ehyaob       0.11      0.05      0.07        20
+    ehyuanb       1.00      0.06      0.11        18
+       xpkb       0.00      0.00      0.00        26
+       xpmb       0.00      0.00      0.00        10
+     xpyaob       0.20      0.74      0.32        34
+    xpyuanb       0.09      0.04      0.05        26
+
+avg / total       0.21      0.20      0.11       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.67      0.15      0.25        13
+     ehyaob       0.15      0.19      0.17        16
+    ehyuanb       0.60      0.46      0.52        13
+       xpkb       0.32      0.35      0.33        17
+       xpmb       0.15      0.11      0.13        18
+     xpyaob       0.55      0.47      0.51        45
+    xpyuanb       0.28      0.52      0.36        21
+
+avg / total       0.40      0.36      0.36       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         7
+     ehyaob       0.00      0.00      0.00        17
+    ehyuanb       0.27      0.36      0.31        11
+       xpkb       0.46      0.19      0.27        32
+       xpmb       0.00      0.00      0.00        17
+     xpyaob       0.35      0.91      0.51        35
+    xpyuanb       0.44      0.29      0.35        24
+
+avg / total       0.28      0.34      0.27       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.33      0.25      0.29         8
+     ehyaob       0.33      0.23      0.27        13
+    ehyuanb       0.42      0.28      0.33        18
+       xpkb       0.25      0.25      0.25        24
+       xpmb       0.12      0.08      0.10        12
+     xpyaob       0.35      0.69      0.46        36
+    xpyuanb       0.25      0.09      0.14        32
+
+avg / total       0.30      0.31      0.28       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       1.00      0.14      0.25         7
+     ehyaob       0.17      0.08      0.11        12
+    ehyuanb       0.38      0.31      0.34        16
+       xpkb       0.54      0.43      0.48        30
+       xpmb       0.50      0.18      0.27        11
+     xpyaob       0.44      0.61      0.51        41
+    xpyuanb       0.26      0.38      0.31        26
+
+avg / total       0.43      0.40      0.38       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         9
+     ehyaob       0.00      0.00      0.00        17
+    ehyuanb       0.00      0.00      0.00        17
+       xpkb       1.00      0.05      0.10        20
+       xpmb       0.00      0.00      0.00        13
+     xpyaob       0.31      1.00      0.47        43
+    xpyuanb       1.00      0.08      0.15        24
+
+avg / total       0.40      0.32      0.18       143
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         5
+     ehyaob       0.06      0.06      0.06        16
+    ehyuanb       0.00      0.00      0.00        21
+       xpkb       0.33      0.04      0.07        27
+       xpmb       0.00      0.00      0.00        11
+     xpyaob       0.26      0.68      0.38        40
+    xpyuanb       0.17      0.13      0.15        23
+
+avg / total       0.17      0.22      0.15       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         9
+     ehyaob       0.33      0.47      0.39        17
+    ehyuanb       0.60      0.21      0.32        14
+       xpkb       0.21      0.20      0.20        25
+       xpmb       0.38      0.19      0.25        16
+     xpyaob       0.35      0.39      0.37        38
+    xpyuanb       0.14      0.21      0.17        24
+
+avg / total       0.29      0.27      0.27       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         9
+     ehyaob       0.43      0.21      0.29        14
+    ehyuanb       0.60      0.18      0.27        17
+       xpkb       0.42      0.22      0.29        23
+       xpmb       0.00      0.00      0.00         6
+     xpyaob       0.30      0.84      0.45        38
+    xpyuanb       0.29      0.11      0.16        36
+
+avg / total       0.33      0.33      0.27       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.50      0.10      0.17        10
+     ehyaob       0.38      0.28      0.32        18
+    ehyuanb       0.44      0.25      0.32        16
+       xpkb       0.33      0.29      0.31        24
+       xpmb       0.38      0.30      0.33        10
+     xpyaob       0.43      0.89      0.58        37
+    xpyuanb       0.43      0.21      0.29        28
+
+avg / total       0.41      0.41      0.37       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00        12
+     ehyaob       0.25      0.12      0.16        17
+    ehyuanb       0.60      0.29      0.39        21
+       xpkb       0.24      0.32      0.27        19
+       xpmb       0.67      0.20      0.31        10
+     xpyaob       0.42      0.81      0.55        31
+    xpyuanb       0.37      0.39      0.38        33
+
+avg / total       0.37      0.38      0.34       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         7
+     ehyaob       0.00      0.00      0.00        20
+    ehyuanb       0.00      0.00      0.00        21
+       xpkb       0.00      0.00      0.00        22
+       xpmb       0.00      0.00      0.00        13
+     xpyaob       0.23      1.00      0.38        33
+    xpyuanb       1.00      0.04      0.07        27
+
+avg / total       0.24      0.24      0.10       143
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         7
+     ehyaob       0.11      0.12      0.12         8
+    ehyuanb       0.00      0.00      0.00        11
+       xpkb       0.00      0.00      0.00        33
+       xpmb       0.00      0.00      0.00        13
+     xpyaob       0.25      0.86      0.39        36
+    xpyuanb       0.38      0.09      0.14        35
+
+avg / total       0.16      0.24      0.14       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.25      0.33      0.29         9
+     ehyaob       0.29      0.26      0.28        19
+    ehyuanb       0.25      0.04      0.07        26
+       xpkb       0.24      0.28      0.26        18
+       xpmb       0.25      0.20      0.22        10
+     xpyaob       0.40      0.54      0.46        35
+    xpyuanb       0.42      0.54      0.47        26
+
+avg / total       0.32      0.34      0.31       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         6
+     ehyaob       0.00      0.00      0.00        17
+    ehyuanb       0.50      0.12      0.19        17
+       xpkb       0.47      0.21      0.29        33
+       xpmb       0.00      0.00      0.00         7
+     xpyaob       0.35      0.89      0.51        44
+    xpyuanb       0.25      0.16      0.19        19
+
+avg / total       0.31      0.36      0.27       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         6
+     ehyaob       0.29      0.12      0.17        17
+    ehyuanb       0.38      0.28      0.32        18
+       xpkb       0.54      0.24      0.33        29
+       xpmb       0.00      0.00      0.00        12
+     xpyaob       0.37      0.68      0.48        41
+    xpyuanb       0.21      0.30      0.25        20
+
+avg / total       0.33      0.34      0.30       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.50      0.14      0.22         7
+     ehyaob       0.33      0.12      0.18        16
+    ehyuanb       0.12      0.09      0.11        11
+       xpkb       0.24      0.21      0.22        19
+       xpmb       0.50      0.12      0.20        16
+     xpyaob       0.47      0.71      0.57        42
+    xpyuanb       0.31      0.41      0.35        32
+
+avg / total       0.37      0.37      0.34       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         5
+     ehyaob       0.00      0.00      0.00        19
+    ehyuanb       0.00      0.00      0.00        17
+       xpkb       0.00      0.00      0.00        21
+       xpmb       0.00      0.00      0.00        15
+     xpyaob       0.28      1.00      0.44        40
+    xpyuanb       0.00      0.00      0.00        26
+
+avg / total       0.08      0.28      0.12       143
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00        12
+     ehyaob       0.10      0.06      0.07        17
+    ehyuanb       0.00      0.00      0.00        11
+       xpkb       0.00      0.00      0.00        23
+       xpmb       0.00      0.00      0.00        16
+     xpyaob       0.23      0.88      0.36        32
+    xpyuanb       0.20      0.03      0.05        32
+
+avg / total       0.11      0.21      0.10       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         9
+     ehyaob       0.26      0.25      0.26        20
+    ehyuanb       0.38      0.26      0.31        19
+       xpkb       0.29      0.44      0.35        16
+       xpmb       0.29      0.12      0.17        16
+     xpyaob       0.39      0.57      0.46        30
+    xpyuanb       0.28      0.27      0.28        33
+
+avg / total       0.30      0.31      0.30       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         8
+     ehyaob       0.50      0.04      0.08        24
+    ehyuanb       0.50      0.25      0.33        12
+       xpkb       0.12      0.04      0.06        23
+       xpmb       1.00      0.09      0.17        11
+     xpyaob       0.34      0.86      0.49        43
+    xpyuanb       0.29      0.23      0.26        22
+
+avg / total       0.37      0.34      0.25       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       1.00      0.18      0.31        11
+     ehyaob       0.09      0.07      0.08        15
+    ehyuanb       0.25      0.19      0.21        16
+       xpkb       0.18      0.11      0.14        27
+       xpmb       0.20      0.10      0.13        10
+     xpyaob       0.35      0.70      0.46        33
+    xpyuanb       0.33      0.32      0.33        31
+
+avg / total       0.31      0.30      0.27       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       1.00      0.09      0.17        11
+     ehyaob       0.33      0.13      0.19        15
+    ehyuanb       0.46      0.46      0.46        13
+       xpkb       0.27      0.21      0.24        28
+       xpmb       0.25      0.07      0.11        14
+     xpyaob       0.43      0.69      0.53        42
+    xpyuanb       0.23      0.35      0.28        20
+
+avg / total       0.39      0.36      0.33       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00        10
+     ehyaob       0.00      0.00      0.00        13
+    ehyuanb       0.00      0.00      0.00        21
+       xpkb       0.00      0.00      0.00        19
+       xpmb       0.00      0.00      0.00        19
+     xpyaob       0.20      1.00      0.34        29
+    xpyuanb       0.00      0.00      0.00        32
+
+avg / total       0.04      0.20      0.07       143
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         2
+     ehyaob       0.33      0.26      0.29        19
+    ehyuanb       0.67      0.13      0.22        15
+       xpkb       0.00      0.00      0.00        29
+       xpmb       0.00      0.00      0.00        12
+     xpyaob       0.30      0.76      0.42        41
+    xpyuanb       0.20      0.16      0.18        25
+
+avg / total       0.23      0.29      0.22       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.33      0.11      0.17         9
+     ehyaob       0.15      0.25      0.19        12
+    ehyuanb       0.46      0.26      0.33        23
+       xpkb       0.43      0.38      0.40        24
+       xpmb       0.40      0.22      0.29         9
+     xpyaob       0.43      0.53      0.47        43
+    xpyuanb       0.37      0.43      0.40        23
+
+avg / total       0.39      0.38      0.37       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         2
+     ehyaob       0.00      0.00      0.00        14
+    ehyuanb       0.75      0.15      0.25        20
+       xpkb       0.50      0.35      0.41        17
+       xpmb       1.00      0.25      0.40        12
+     xpyaob       0.38      0.84      0.52        45
+    xpyuanb       0.57      0.36      0.44        33
+
+avg / total       0.50      0.43      0.39       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.50      0.11      0.18         9
+     ehyaob       0.18      0.21      0.19        14
+    ehyuanb       0.08      0.11      0.10         9
+       xpkb       0.22      0.23      0.22        22
+       xpmb       0.25      0.17      0.20        12
+     xpyaob       0.42      0.60      0.50        45
+    xpyuanb       0.41      0.22      0.29        32
+
+avg / total       0.33      0.32      0.31       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.33      0.14      0.20         7
+     ehyaob       0.38      0.30      0.33        10
+    ehyuanb       0.55      0.32      0.40        19
+       xpkb       0.53      0.32      0.40        28
+       xpmb       0.43      0.20      0.27        15
+     xpyaob       0.61      0.71      0.66        42
+    xpyuanb       0.27      0.59      0.37        22
+
+avg / total       0.49      0.45      0.44       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00        10
+     ehyaob       0.00      0.00      0.00         9
+    ehyuanb       0.00      0.00      0.00        11
+       xpkb       0.00      0.00      0.00        32
+       xpmb       0.00      0.00      0.00         9
+     xpyaob       0.29      1.00      0.45        41
+    xpyuanb       0.00      0.00      0.00        31
+
+avg / total       0.08      0.29      0.13       143
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         7
+     ehyaob       0.12      0.20      0.15        10
+    ehyuanb       1.00      0.06      0.11        17
+       xpkb       0.00      0.00      0.00        22
+       xpmb       0.50      0.09      0.15        11
+     xpyaob       0.22      0.75      0.34        32
+    xpyuanb       0.55      0.14      0.22        44
+
+avg / total       0.38      0.24      0.18       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.25      0.33      0.29         6
+     ehyaob       0.10      0.06      0.07        17
+    ehyuanb       0.50      0.18      0.27        22
+       xpkb       0.31      0.50      0.38        18
+       xpmb       0.44      0.24      0.31        17
+     xpyaob       0.43      0.50      0.47        40
+    xpyuanb       0.30      0.43      0.36        23
+
+avg / total       0.36      0.35      0.33       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00        10
+     ehyaob       0.00      0.00      0.00        14
+    ehyuanb       0.60      0.20      0.30        15
+       xpkb       0.08      0.04      0.06        24
+       xpmb       0.00      0.00      0.00        11
+     xpyaob       0.30      0.84      0.44        38
+    xpyuanb       0.39      0.23      0.29        31
+
+avg / total       0.24      0.30      0.22       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         6
+     ehyaob       0.62      0.36      0.45        14
+    ehyuanb       0.45      0.42      0.43        12
+       xpkb       0.54      0.27      0.36        26
+       xpmb       0.17      0.06      0.09        17
+     xpyaob       0.42      0.80      0.55        41
+    xpyuanb       0.46      0.41      0.43        27
+
+avg / total       0.42      0.43      0.40       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00        10
+     ehyaob       0.29      0.22      0.25         9
+    ehyuanb       0.40      0.31      0.35        13
+       xpkb       0.50      0.28      0.36        29
+       xpmb       0.40      0.13      0.20        15
+     xpyaob       0.53      0.65      0.58        46
+    xpyuanb       0.19      0.43      0.26        21
+
+avg / total       0.39      0.38      0.37       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00        10
+     ehyaob       0.00      0.00      0.00        12
+    ehyuanb       0.00      0.00      0.00        14
+       xpkb       0.00      0.00      0.00        22
+       xpmb       0.00      0.00      0.00        20
+     xpyaob       0.25      1.00      0.40        35
+    xpyuanb       0.50      0.03      0.06        30
+
+avg / total       0.17      0.25      0.11       143
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         7
+     ehyaob       0.12      0.13      0.13        15
+    ehyuanb       0.00      0.00      0.00        12
+       xpkb       0.00      0.00      0.00        29
+       xpmb       0.00      0.00      0.00        12
+     xpyaob       0.25      0.76      0.38        38
+    xpyuanb       0.00      0.00      0.00        30
+
+avg / total       0.08      0.22      0.11       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         6
+     ehyaob       0.17      0.27      0.21        15
+    ehyuanb       0.22      0.18      0.20        11
+       xpkb       0.32      0.32      0.32        28
+       xpmb       0.38      0.25      0.30        12
+     xpyaob       0.52      0.49      0.51        47
+    xpyuanb       0.24      0.25      0.24        24
+
+avg / total       0.34      0.33      0.33       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00        18
+     ehyaob       0.00      0.00      0.00        12
+    ehyuanb       0.38      0.19      0.25        16
+       xpkb       0.33      0.21      0.26        19
+       xpmb       0.00      0.00      0.00         9
+     xpyaob       0.37      0.90      0.53        42
+    xpyuanb       0.29      0.19      0.23        27
+
+avg / total       0.25      0.35      0.26       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.25      0.12      0.17         8
+     ehyaob       0.50      0.12      0.20        16
+    ehyuanb       0.50      0.42      0.45        12
+       xpkb       0.30      0.27      0.29        22
+       xpmb       0.00      0.00      0.00        12
+     xpyaob       0.38      0.76      0.51        37
+    xpyuanb       0.42      0.28      0.33        36
+
+avg / total       0.36      0.36      0.33       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00        11
+     ehyaob       0.50      0.20      0.29        15
+    ehyuanb       0.20      0.23      0.21        13
+       xpkb       0.43      0.39      0.41        23
+       xpmb       0.00      0.00      0.00         8
+     xpyaob       0.54      0.69      0.60        42
+    xpyuanb       0.40      0.52      0.45        31
+
+avg / total       0.38      0.42      0.39       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         7
+     ehyaob       0.00      0.00      0.00        14
+    ehyuanb       0.00      0.00      0.00        15
+       xpkb       0.00      0.00      0.00        23
+       xpmb       0.00      0.00      0.00        14
+     xpyaob       0.27      1.00      0.42        38
+    xpyuanb       0.00      0.00      0.00        32
+
+avg / total       0.07      0.27      0.11       143
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         6
+     ehyaob       0.04      0.08      0.05        13
+    ehyuanb       1.00      0.07      0.12        15
+       xpkb       0.75      0.12      0.20        26
+       xpmb       0.00      0.00      0.00        14
+     xpyaob       0.30      0.67      0.41        46
+    xpyuanb       0.33      0.13      0.19        23
+
+avg / total       0.39      0.27      0.22       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.50      0.40      0.44         5
+     ehyaob       0.50      0.26      0.34        23
+    ehyuanb       0.62      0.33      0.43        24
+       xpkb       0.38      0.56      0.45        18
+       xpmb       0.22      0.18      0.20        11
+     xpyaob       0.34      0.44      0.39        36
+    xpyuanb       0.31      0.38      0.34        26
+
+avg / total       0.41      0.38      0.38       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00        13
+     ehyaob       0.33      0.06      0.10        17
+    ehyuanb       0.60      0.23      0.33        13
+       xpkb       0.36      0.14      0.20        36
+       xpmb       1.00      0.08      0.15        12
+     xpyaob       0.28      0.91      0.42        32
+    xpyuanb       0.40      0.30      0.34        20
+
+avg / total       0.39      0.31      0.25       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         6
+     ehyaob       0.24      0.27      0.25        15
+    ehyuanb       0.38      0.27      0.32        11
+       xpkb       0.31      0.21      0.25        24
+       xpmb       0.20      0.06      0.09        17
+     xpyaob       0.42      0.74      0.54        39
+    xpyuanb       0.37      0.32      0.34        31
+
+avg / total       0.32      0.36      0.32       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       1.00      0.22      0.36         9
+     ehyaob       0.60      0.24      0.34        25
+    ehyuanb       0.17      0.20      0.18        10
+       xpkb       0.44      0.28      0.34        29
+       xpmb       0.00      0.00      0.00         9
+     xpyaob       0.29      0.52      0.37        31
+    xpyuanb       0.37      0.53      0.44        30
+
+avg / total       0.41      0.35      0.34       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         6
+     ehyaob       0.00      0.00      0.00        13
+    ehyuanb       0.00      0.00      0.00        21
+       xpkb       0.00      0.00      0.00        22
+       xpmb       0.00      0.00      0.00        11
+     xpyaob       0.30      1.00      0.46        43
+    xpyuanb       1.00      0.04      0.07        27
+
+avg / total       0.28      0.31      0.15       143
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         4
+     ehyaob       0.30      0.27      0.29        11
+    ehyuanb       0.00      0.00      0.00        19
+       xpkb       0.00      0.00      0.00        24
+       xpmb       0.00      0.00      0.00        10
+     xpyaob       0.26      0.76      0.38        42
+    xpyuanb       0.00      0.00      0.00        33
+
+avg / total       0.10      0.24      0.13       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.43      0.33      0.38         9
+     ehyaob       0.30      0.20      0.24        15
+    ehyuanb       0.25      0.27      0.26        11
+       xpkb       0.39      0.29      0.33        31
+       xpmb       0.30      0.17      0.21        18
+     xpyaob       0.48      0.65      0.55        37
+    xpyuanb       0.29      0.41      0.34        22
+
+avg / total       0.37      0.38      0.36       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00        11
+     ehyaob       0.00      0.00      0.00        20
+    ehyuanb       0.29      0.14      0.19        14
+       xpkb       0.46      0.24      0.32        25
+       xpmb       0.00      0.00      0.00        11
+     xpyaob       0.26      0.84      0.40        32
+    xpyuanb       0.50      0.27      0.35        30
+
+avg / total       0.27      0.30      0.24       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.50      0.12      0.20         8
+     ehyaob       0.31      0.29      0.30        14
+    ehyuanb       0.12      0.09      0.11        11
+       xpkb       0.30      0.41      0.35        17
+       xpmb       0.50      0.06      0.11        16
+     xpyaob       0.49      0.78      0.60        45
+    xpyuanb       0.43      0.31      0.36        32
+
+avg / total       0.41      0.41      0.37       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         7
+     ehyaob       0.25      0.15      0.19        13
+    ehyuanb       0.54      0.54      0.54        13
+       xpkb       0.41      0.26      0.32        27
+       xpmb       0.50      0.08      0.14        12
+     xpyaob       0.32      0.56      0.41        34
+    xpyuanb       0.40      0.46      0.43        37
+
+avg / total       0.37      0.37      0.35       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00        10
+     ehyaob       0.00      0.00      0.00        18
+    ehyuanb       0.00      0.00      0.00        16
+       xpkb       0.00      0.00      0.00        19
+       xpmb       0.00      0.00      0.00        11
+     xpyaob       0.29      1.00      0.45        41
+    xpyuanb       0.00      0.00      0.00        28
+
+avg / total       0.08      0.29      0.13       143
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         6
+     ehyaob       0.12      0.17      0.14        12
+    ehyuanb       0.00      0.00      0.00        14
+       xpkb       0.00      0.00      0.00        19
+       xpmb       0.00      0.00      0.00        13
+     xpyaob       0.30      0.74      0.42        46
+    xpyuanb       0.29      0.06      0.10        33
+
+avg / total       0.17      0.27      0.17       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.20      0.29      0.24         7
+     ehyaob       0.20      0.27      0.23        11
+    ehyuanb       0.38      0.31      0.34        16
+       xpkb       0.22      0.14      0.17        29
+       xpmb       0.33      0.12      0.18        16
+     xpyaob       0.37      0.56      0.44        34
+    xpyuanb       0.31      0.30      0.31        30
+
+avg / total       0.30      0.31      0.29       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         9
+     ehyaob       0.00      0.00      0.00        16
+    ehyuanb       0.60      0.35      0.44        17
+       xpkb       0.62      0.26      0.36        31
+       xpmb       0.00      0.00      0.00         8
+     xpyaob       0.33      0.87      0.48        39
+    xpyuanb       0.47      0.30      0.37        23
+
+avg / total       0.37      0.38      0.32       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.29      0.50      0.36         4
+     ehyaob       0.33      0.21      0.26        19
+    ehyuanb       0.60      0.30      0.40        20
+       xpkb       0.35      0.35      0.35        20
+       xpmb       0.20      0.08      0.12        12
+     xpyaob       0.52      0.77      0.62        43
+    xpyuanb       0.44      0.44      0.44        25
+
+avg / total       0.43      0.45      0.42       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         5
+     ehyaob       0.43      0.16      0.23        19
+    ehyuanb       0.71      0.28      0.40        18
+       xpkb       0.21      0.15      0.18        26
+       xpmb       0.62      0.33      0.43        15
+     xpyaob       0.38      0.74      0.50        31
+    xpyuanb       0.33      0.45      0.38        29
+
+avg / total       0.40      0.37      0.34       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00        13
+     ehyaob       0.00      0.00      0.00        15
+    ehyuanb       0.00      0.00      0.00        12
+       xpkb       0.00      0.00      0.00        17
+       xpmb       0.00      0.00      0.00        12
+     xpyaob       0.28      1.00      0.44        40
+    xpyuanb       1.00      0.03      0.06        34
+
+avg / total       0.32      0.29      0.14       143
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00        10
+     ehyaob       0.12      0.13      0.13        15
+    ehyuanb       0.00      0.00      0.00        16
+       xpkb       1.00      0.04      0.08        24
+       xpmb       0.00      0.00      0.00        15
+     xpyaob       0.24      0.82      0.37        33
+    xpyuanb       0.17      0.07      0.10        30
+
+avg / total       0.27      0.22      0.13       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.40      0.14      0.21        14
+     ehyaob       0.29      0.27      0.28        15
+    ehyuanb       0.20      0.21      0.21        14
+       xpkb       0.26      0.29      0.27        21
+       xpmb       0.40      0.50      0.44         8
+     xpyaob       0.45      0.35      0.39        37
+    xpyuanb       0.34      0.47      0.40        34
+
+avg / total       0.35      0.34      0.33       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         9
+     ehyaob       0.00      0.00      0.00        14
+    ehyuanb       0.40      0.29      0.33        14
+       xpkb       0.25      0.13      0.17        23
+       xpmb       1.00      0.25      0.40        12
+     xpyaob       0.36      0.93      0.51        40
+    xpyuanb       0.54      0.23      0.32        31
+
+avg / total       0.38      0.38      0.31       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         7
+     ehyaob       0.41      0.39      0.40        18
+    ehyuanb       0.70      0.33      0.45        21
+       xpkb       0.20      0.17      0.19        23
+       xpmb       0.14      0.11      0.12         9
+     xpyaob       0.38      0.76      0.51        34
+    xpyuanb       0.47      0.29      0.36        31
+
+avg / total       0.39      0.38      0.35       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         5
+     ehyaob       0.50      0.15      0.23        20
+    ehyuanb       0.56      0.82      0.67        11
+       xpkb       0.19      0.21      0.20        19
+       xpmb       0.50      0.08      0.13        13
+     xpyaob       0.51      0.67      0.58        45
+    xpyuanb       0.42      0.53      0.47        30
+
+avg / total       0.43      0.44      0.40       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         4
+     ehyaob       0.00      0.00      0.00        12
+    ehyuanb       0.00      0.00      0.00        18
+       xpkb       0.00      0.00      0.00        28
+       xpmb       0.00      0.00      0.00         8
+     xpyaob       0.30      1.00      0.46        43
+    xpyuanb       1.00      0.03      0.06        30
+
+avg / total       0.30      0.31      0.15       143
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         9
+     ehyaob       0.29      0.13      0.18        15
+    ehyuanb       0.00      0.00      0.00        17
+       xpkb       0.00      0.00      0.00        20
+       xpmb       0.00      0.00      0.00        19
+     xpyaob       0.28      0.83      0.42        41
+    xpyuanb       0.36      0.18      0.24        22
+
+avg / total       0.17      0.28      0.18       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.25      0.33      0.29         6
+     ehyaob       0.22      0.32      0.26        19
+    ehyuanb       0.47      0.41      0.44        17
+       xpkb       0.22      0.32      0.26        19
+       xpmb       0.50      0.18      0.27        11
+     xpyaob       0.44      0.37      0.40        38
+    xpyuanb       0.27      0.24      0.25        33
+
+avg / total       0.34      0.31      0.32       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         7
+     ehyaob       0.00      0.00      0.00        12
+    ehyuanb       0.67      0.22      0.33        18
+       xpkb       0.64      0.24      0.35        29
+       xpmb       0.00      0.00      0.00         7
+     xpyaob       0.28      0.85      0.43        34
+    xpyuanb       0.24      0.11      0.15        36
+
+avg / total       0.34      0.31      0.25       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.33      0.20      0.25         5
+     ehyaob       0.31      0.36      0.33        14
+    ehyuanb       0.38      0.16      0.22        19
+       xpkb       0.48      0.34      0.40        29
+       xpmb       0.40      0.20      0.27        10
+     xpyaob       0.38      0.76      0.50        37
+    xpyuanb       0.50      0.28      0.36        29
+
+avg / total       0.42      0.40      0.37       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.67      0.17      0.27        12
+     ehyaob       0.57      0.21      0.31        19
+    ehyuanb       0.67      0.24      0.35        17
+       xpkb       0.26      0.43      0.32        14
+       xpmb       0.40      0.25      0.31         8
+     xpyaob       0.48      0.78      0.60        41
+    xpyuanb       0.48      0.50      0.49        32
+
+avg / total       0.51      0.46      0.44       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         9
+     ehyaob       0.00      0.00      0.00        17
+    ehyuanb       0.00      0.00      0.00        17
+       xpkb       0.00      0.00      0.00        22
+       xpmb       0.00      0.00      0.00        12
+     xpyaob       0.20      1.00      0.34        29
+    xpyuanb       0.00      0.00      0.00        37
+
+avg / total       0.04      0.20      0.07       143
+
+[1m[36mReorganizing folders, into two classes[0m
+
+
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00        12
+     ehyaob       0.10      0.07      0.08        14
+    ehyuanb       0.00      0.00      0.00        14
+       xpkb       0.00      0.00      0.00        24
+       xpmb       1.00      0.08      0.14        13
+     xpyaob       0.20      0.73      0.31        33
+    xpyuanb       0.40      0.12      0.19        33
+
+avg / total       0.24      0.21      0.14       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.33      0.18      0.24        11
+     ehyaob       0.26      0.25      0.26        20
+    ehyuanb       0.31      0.27      0.29        15
+       xpkb       0.48      0.34      0.40        29
+       xpmb       0.25      0.13      0.17        15
+     xpyaob       0.36      0.50      0.42        32
+    xpyuanb       0.29      0.43      0.35        21
+
+avg / total       0.34      0.34      0.33       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+bow nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         7
+     ehyaob       0.20      0.11      0.14         9
+    ehyuanb       0.44      0.27      0.33        15
+       xpkb       0.44      0.25      0.32        28
+       xpmb       0.00      0.00      0.00        13
+     xpyaob       0.36      0.95      0.52        38
+    xpyuanb       0.42      0.15      0.22        33
+
+avg / total       0.34      0.37      0.30       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf knn
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.40      0.13      0.20        15
+     ehyaob       0.33      0.25      0.29        16
+    ehyuanb       0.47      0.37      0.41        19
+       xpkb       0.42      0.38      0.40        21
+       xpmb       0.33      0.18      0.24        11
+     xpyaob       0.44      0.70      0.54        37
+    xpyuanb       0.37      0.42      0.39        24
+
+avg / total       0.40      0.41      0.39       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf svm
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.33      0.17      0.22         6
+     ehyaob       0.31      0.40      0.35        10
+    ehyuanb       0.67      0.33      0.44        24
+       xpkb       0.21      0.18      0.20        22
+       xpmb       0.80      0.36      0.50        11
+     xpyaob       0.43      0.56      0.49        45
+    xpyuanb       0.33      0.44      0.38        25
+
+avg / total       0.44      0.40      0.40       143
+
+
+
+
+[1m[32mLoading files into memory[0m
+[1m[32mCalculating BOW[0m
+<type 'list'> 1429
+len ==1 words: 1772
+[1m[32mCalculating TFIDF[0m
+(1429, 25081)
+
+
+
+
+
+
+tfidf nb
+[1m[35mTesting classifier with train-test split[0m
+test size is: 10%
+[1m[35mClassification report:[0m
+             precision    recall  f1-score   support
+
+       ehmb       0.00      0.00      0.00         9
+     ehyaob       0.00      0.00      0.00        16
+    ehyuanb       0.00      0.00      0.00        22
+       xpkb       0.00      0.00      0.00        16
+       xpmb       0.00      0.00      0.00         8
+     xpyaob       0.35      1.00      0.52        49
+    xpyuanb       1.00      0.09      0.16        23
+
+avg / total       0.28      0.36      0.20       143
+
