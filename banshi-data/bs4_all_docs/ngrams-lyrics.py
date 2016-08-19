@@ -39,7 +39,7 @@ def write_to_file(out,inputfile,outname):
     """out is the data to be written to the file"""
     y=open(outname,'a')
     y.write('\n\n'+ "#" + inputfile + '\n')
-    for line in out[:100]:
+    for line in out:
         ttw=' '.join(line)
         y.write(ttw.encode('utf-8'))
         y.write('\n')
